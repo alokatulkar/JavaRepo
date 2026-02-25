@@ -14,7 +14,7 @@ pipeline {
 
         stage('Run Container') {
             steps {
-                sh 'docker run -d -p 8081:8080 dockerjava'
+                sh 'docker run -d -p 8082:8080 dockerjava'
             }
         }
     }
